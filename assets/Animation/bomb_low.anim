@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bomb_low",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            549.069,
+            -71.279,
+            0
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            -581.778,
+            -71.279,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0.6666666666666666,
+      "func": "judgeJump",
+      "params": []
+    },
+    {
+      "frame": 0.8666666666666667,
+      "func": "judgeJump",
+      "params": []
+    }
+  ]
+}
